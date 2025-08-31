@@ -1,0 +1,17 @@
+.dark-mode {
+	background-color: black;
+}
+
+.dark-mode h1 {
+	color: white;
+}
+
+.app {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
+	margin-bottom: 30px;
+}

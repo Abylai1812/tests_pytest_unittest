@@ -1,0 +1,39 @@
+.note {
+	margin: 20px 0 0 0;
+	background-color: #fef68a;
+	border-radius: 10px;
+	padding: 1rem;
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	white-space: pre-wrap;
+	
+}
+.title {
+	margin: 0;
+	padding: 0;
+}
+
+.note-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.note-footer button {
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .note-footer button:focus {
+      box-shadow: none;
+      outline: none;
+  }
+
+.fa-star {
+	cursor: pointer;
+}
+.important {
+	color: #e5383b;
+}
