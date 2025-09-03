@@ -42,13 +42,6 @@ def test_user_can_create_comment(author_client, author, form_data, news):
 
     assert new_comment.text == form_data['text']
  
-
-
- 
-
-
- 
-
 @pytest.mark.django_db
  
 
@@ -81,11 +74,6 @@ def test_anonymous_user_cant_create_comment(client, form_data, news):
 ревьюер
 
 
- 
-
-
- 
-
 def test_user_cant_use_bad_words(author_client, news):
  
 
@@ -109,11 +97,6 @@ def test_user_cant_use_bad_words(author_client, news):
 Игорь Шкода
 ревьюер
 
-
- 
-
-
- 
 
 def test_author_can_edit_comment(author_client, form_data, comment):
  
